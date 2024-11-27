@@ -26,3 +26,10 @@ Tipos de correspondencia de la relacion:
             1:1  uno a uno 
             1:N Uno a muchos
             N:M Muchos a muchos
+
+Atributos: 
+    - Caracteristicas o propiedades de una entidad o relacion 
+
+    - Para una ocurrencia de una entidad cada atributo solo puede tomar un valor 
+
+    - El dominio de un atributo es el conjunto de valores que puede tomar ese atributo
