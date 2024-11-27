@@ -1,0 +1,9 @@
+Preguntas fundamentales para una base de datos: 
+
+#1 ¿De que quiero guardar informacion?
+	-Para identificar las entidades a crear 
+
+Tipos de ficheros en una base de datos: 
+
+	Texto plano y Binario 
+		

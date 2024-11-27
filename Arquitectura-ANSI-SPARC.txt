@@ -1,0 +1,8 @@
+ANSI-SPARC:     
+        - American National Standard Institute - Standards Planning And Requirements Commitee 
+
+        - En esta arquitectura el esquema de una DB se caracteriza por tres niveles de abstraccion 
+
+                    #1: Nivel Interno o Fisico: Representa la forma en la que estan almacenados los datos, es el mas cercano al fisico. 
+
+                    
