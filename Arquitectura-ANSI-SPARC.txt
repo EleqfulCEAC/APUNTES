@@ -5,4 +5,8 @@ ANSI-SPARC:
 
                     #1: Nivel Interno o Fisico: Representa la forma en la que estan almacenados los datos, es el mas cercano al fisico. 
 
+                    #2: Nivel Externo o de vision: Para usuarios.
+
+                    #3: 
+
                     

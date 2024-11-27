@@ -3,7 +3,43 @@ Preguntas fundamentales para una base de datos:
 #1 ¿De que quiero guardar informacion?
 	-Para identificar las entidades a crear 
 
+#2 ¿Que informacion quiero guardar? y ¿Como se relaciona esta?
+	- Para exprimir al maximo la informacion
+
 Tipos de ficheros en una base de datos: 
 
-	Texto plano y Binario 
+	Texto plano y Binario  
+
+Sistema Gestor de base de datos
+
+Seguridad De la Base de datos:
+
+#SGBD (Herramientas) 
+	DDL: Lenguaje de definicion de datos 
+		Permite especificar la estructura de la DB, el tipo de datos, sus retricciones y las relaciones entre ellos. 
+		
+	Operaciones fundamentales: 
+		Tipos de consultas: 
+			Altas (inserciones)
+			Bajas (Borrados)
+			Modificaciones (Actualizaciones)
+			Busquedas
+
+		Todo esto se realiza usando el sub tipo de lenguaje para la manipulacion de datos (DML)
+
+#SGBD (Diccionario de datos) 
+		- Es el lugar donde se deposita la informacion acerca de todos los datos que forman la DB
+		
+		- Proporciona las definiciones de todos los objetos de la DB: tablas, vistas, indices, etc 
+
+		- Almacena los roles y privilegios otorgados a los usuarios 
+
+#SGBD (Seguridad e integridad de datos) 
+		- Los SGBD ofrecen mecanismos para implantar restricciones en la integridad de la DB
+
+		- Estas restricciones protegen la DB de daños en los datos y en la estructura de datos 
+
+		- Debe ser capaz de recuperar la DB llevandola a un estado consistente 
+
+		- Debe asegurar el estado concurrente y ofrecer mecanismos de recuperacion de datos. 
 		
