@@ -1,0 +1,28 @@
+Entidad: 
+
+¿De que quiero guardar informacion?
+
+- Se representan con rectangulos 
+
+- Dos tipos: debiles y fuertes 
+        fuertes: marco individual, entidad cuya existencia tiene sentido por si misma
+        Debiles: doble marco 
+
+
+Relacion: 
+
+- Asociacion o correspondencia entre entidades que se representan con rombos 
+
+- el grado de una relacion hace referencia al numero de entidades que participan en dicha relacion
+
+Tipos de correspondencia de la relacion: 
+
+    -CARDINALIDAD: 
+
+    - uno con cuantos y al reves
+
+    - Numero maximo de ocurrencias de una entidad que pueden estar asociadas con una ocurrencia de la otra entidad participante en la relacion 
+
+            1:1  uno a uno 
+            1:N Uno a muchos
+            N:M Muchos a muchos
