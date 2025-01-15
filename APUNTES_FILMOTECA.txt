@@ -1,0 +1,28 @@
+Aplicacion informatica a medida que necesita gestionar una extensa coleccion de peliculas dvd
+
+necesita tener informacion completa de cada pelicula, asi como de los actores, directores, guionistas y generos
+
+el cliente le interesa tener la siguiente informacion 
+
+Sobre las peliculas necesitamos: 
+
+	TITULO
+	FECHA
+	DURACION
+	SINOPSIS
+	FOTO DE LA PORTADA
+	TRAILER 
+	CLASIFICACION POR GENERO CINEMATOGRAFICO (UNA PELICULA PUEDE TENER VARIOS GENEROS)
+	CASA PRODUCTORA DE LA PELICULA (PUEDEN SER VARIAS)
+
+Sobre las personas relacionadas a la pelicula: (UNA MISMA PERSONA PUEDE PARTICIPAR EN VARIAS PELICULAS)
+	
+	NOMBRE
+	APELLIDO
+	FEC NAC
+	NACIONALIDAD (UNA PERSONA PUEDE TENER VARIAS)
+	BIOGRAFIA
+	FOTOS
+	ROL DENTRO DE LA PELICULA (ACTOR, DIRECTOR, GUIONISTA) (DENTRO DE LA MISMA PELICULA LA PERSONA PUEDE TENER DISTITNOS ROLES)
+
+****PONER EJEMPLOS DEL DIAGRAMA, PONERLO A PRUEBA PARA LLEGAR A UNA RESPUESTA****
