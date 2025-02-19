@@ -1,0 +1,14 @@
+INSERT INTO CONTACTOS (cod_contacto, nombre, apellidos, fec_nac, dni, telefono, mail, tipo, observaciones) 
+VALUES(26, 'SHINJI', 'IKARI', '1852-01-01', '89343783H', '622334543', 'SHINJIIKARI@GMAIL.COM', 'amistad', ''); 
+
+INSERT INTO CONTACTOS (cod_contacto, nombre, apellidos, fec_nac, dni, telefono, mail, tipo, observaciones) 
+VALUES(27, 'HATSUNE', 'MIKU', '1200-01-01', '89343433H', '612334443', 'HATSUNEMIKU@GMAIL.COM', 'amistad', ''); 
+
+INSERT INTO CONTACTOS (cod_contacto, nombre, apellidos, fec_nac, dni, telefono, mail, tipo, observaciones) 
+VALUES(28, 'ELON', 'MUSK', '1972-01-01', '45435443L', '615686098', 'ELONMUSK@GMAIL.COM', 'trabajo', 'DUEÑO DE TWITTER :o'); 
+
+INSERT INTO CONTACTOS (cod_contacto, nombre, apellidos, fec_nac, dni, telefono, mail, tipo, observaciones) 
+VALUES(29, 'DONALD', 'TRUMP', '2010-01-01', '47890243L', '618779098', 'DONALDTRUMP@GMAIL.COM', 'NEGOCIOS', ''); 
+
+INSERT INTO CONTACTOS (cod_contacto, nombre, apellidos, fec_nac, dni, telefono, mail, tipo, observaciones) 
+VALUES(30, 'STEVE', 'JOBS', '1949-01-01', '456789443L', '626789098', 'STEVEJOBS@GMAIL.COM', 'Amistad', 'creo el iphone'); 
