@@ -37,10 +37,6 @@ SET sueldo=24000
 WHERE MOD(cod_contacto, 6)=0;
 
 
-
-
-
-
 /*OPERADORES DE COMPARACION*/
 < Mayor que
 > Menor que
