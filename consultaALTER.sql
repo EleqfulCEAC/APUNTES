@@ -60,3 +60,31 @@ SELECT SUM(SUELDO) FROM contactos;
 UPDATE contactos 
 SET departamento = 'Marketing'
 WHERE MOD (cod_contacto, 2)=1;
+
+
+/*Practica de consultas usando agenda daw y contactos*/
+
+/*#1 contactos de madrid que ganen mas de 23000*/
+SELECT nombre, apellidos, dni 
+FROM CONTACTOS 
+WHERE SUELDO > 23000 
+AND ciudad = 'Madrid'
+ORDER BY nombre, apellidos, dni;
+
+/*#2 Gasto total de sueldos de la empresa y por departamento*/ 
+SELECT SUM(sueldo) AS 'Sueldo Total' FROM contactos;
+SELECT departamento, SUM(SUELDO) FROM contactos GROUP by departamento;
+
+/*#3 Gasto medio por departamento*/
+SELECT departamento, AVG(SUELDO) FROM contactos GROUP by departamento;
+
+/*#4 Contactos de Madrid, Cordoba, Toledo, burgos*/
+SELECT nombre, apellido, dni
+FROM contactos 
+WHERE ciudad = 'Madrid', 'Cordoba', 'Toledo', 'Burgos'
+ORDER BY nombre, apellidos, dni;
+
+/*#5 Saber quien cumple años hoy*/
+SELECT nombre, apellidos 
+FROM contactos 
+WHERE fec_nac = CURDATE()
